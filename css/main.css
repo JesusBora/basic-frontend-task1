@@ -1,0 +1,92 @@
+main{
+    margin-top: 4.2rem;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section.top{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    background-color: #c7c7c7;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.category-card{
+    text-align: center;
+    width: 85px;
+}
+.category-img{
+    width: 85px;
+    height: 85px;
+    content: "";
+    background-color: #fff;
+}
+.category-card h2{
+    font-size: 1.2rem;
+    padding: 3px;
+}
+
+/* Rest */
+section.rest{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.coupon-card{
+    width: 230px;
+    background-color: #fff;
+}
+
+.coupon-card .coupon-img{
+    width: 230px;
+    height: 230px;
+    background-color: #d8d8d8;
+}
+
+.coupon-card>span{
+    color: black;
+}
+
+.coupon-info{
+    padding: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.coupon-info>*{
+    align-self: center;
+    justify-self: stretch;
+}
+
+.coupon-name{
+    font-weight: bold;
+}
+
+.coupon-description{
+    font-size: 0.8rem;
+}
+
+.coupon-expire{
+    font-size: 0.6rem;
+}
+
+.coupon-amount{
+    font-size: 1.5rem;
+}
+
+.add-coupon{
+    font-size: 0.7rem;
+}

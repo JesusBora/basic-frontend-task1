@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new</title>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- header -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- login -->
+    <link rel="stylesheet" href="css/new-item.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li class="logo">
+                <a href="main.html">Logo</a>
+            </li>
+            <li class="search">
+                <input type="search" name="search" id="" placeholder="Search by item name">
+                <select name="category" id="">
+                    <option value="1">Category</option>
+                    <option value="2">Category</option>
+                </select>
+            </li>
+            <li>
+                <ul class="quick-menu">
+                    <li>
+                        <a href="#"><span class="material-icons">favorite</span></a>
+                    </li>
+                    <li>
+                        <a href="checkout.html"><span class="material-icons">shopping_cart</span></a>
+                    </li>
+                    <li>
+                        <a href="login.html" class=""><span class="material-icons">face</span></a>
+                    </li>
+                </ul>
+            </li>
+        </nav>
+    </header>
+    <main>
+        <h1>Add New Coupon</h1>
+        <form action="">
+            <label for="company">
+                Company
+                <input type="text" name="company" id="company">
+            </label>
+            <label for="category">
+                Category
+                <select name="category" id="category">
+                    <option value="1">Category Name</option>
+                    <option value="2">Category Name</option>
+                    <option value="3">Category Name</option>
+                </select>
+            </label>
+            <label for="valid-to">
+                Valid to
+                <input type="datetime-local" name="valid-to" id="valid-to">
+            </label>
+            <label for="price">
+                Price
+                <input type="number" name="price" id="price">
+            </label>
+            <label for="images">
+                Images
+                <input type="file" name="" id="">
+            </label>
+            <label for="item-name">
+                Item Name
+                <input type="text" name="item-name" id="item-name">
+            </label>
+            <label for="short-desc" class="double">
+                Short description
+                <textarea name="short-desc" id="short-desc" cols="10" rows="5"></textarea>
+            </label>
+            <label for="long-des" class="double">
+                Long description
+                <textarea name="long-des" id="long-des" cols="10" rows="5"></textarea>
+            </label>
+            <div class=".button-row">
+                <button>Back</button>
+                <button type="submit">Save</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
